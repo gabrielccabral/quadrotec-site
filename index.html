@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quadro Tec · a empresa do Quadro Carrossel</title>
+<meta name="description" content="A Quadro Tec é a empresa de software de São Paulo que faz o Quadro Carrossel, a ferramenta pra contar histórias em carrossel no Instagram.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#1c1d1b;--bg2:#252624;--tinta:#ecebe6;--apagado:#9a9a93;--verde:#9db34c;--linha:#34352f}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--tinta);font-family:"Host Grotesk",system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 28px}
+  header{display:flex;justify-content:space-between;align-items:center;padding:28px 0}
+  .marca{font-weight:800;letter-spacing:.02em;font-size:18px;text-decoration:none}
+  .marca span{color:var(--verde)}
+  .topo-link{font-size:15px;color:var(--apagado);text-decoration:none;border-bottom:1px solid var(--linha)}
+  .topo-link:hover{color:var(--tinta)}
+  .hero{padding:96px 0 80px}
+  .hero small{display:block;color:var(--verde);font-weight:500;font-size:15px;margin-bottom:22px;letter-spacing:.04em;text-transform:uppercase}
+  h1{font-size:clamp(38px,6.4vw,76px);line-height:1.02;font-weight:800;letter-spacing:-.02em;max-width:14ch}
+  .hero p{margin-top:28px;font-size:clamp(18px,2vw,22px);color:var(--apagado);max-width:44ch}
+  .botao{display:inline-flex;gap:10px;align-items:center;margin-top:40px;background:var(--verde);color:#15160f;font-weight:700;font-size:17px;padding:16px 26px;border-radius:999px;text-decoration:none;transition:transform .15s}
+  .botao:hover{transform:translateY(-2px)}
+  .tres{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--linha);border:1px solid var(--linha);border-radius:18px;overflow:hidden}
+  .tres div{background:var(--bg2);padding:32px 28px}
+  .tres b{display:block;font-size:19px;margin-bottom:8px}
+  .tres p{color:var(--apagado);font-size:16px}
+  .quem{padding:96px 0;display:grid;grid-template-columns:1fr 1.4fr;gap:48px;align-items:start}
+  .quem h2{font-size:30px;font-weight:700;letter-spacing:-.01em}
+  .quem p{color:var(--apagado);font-size:18px}
+  .quem p+p{margin-top:16px}
+  .quem a{color:var(--tinta)}
+  footer{border-top:1px solid var(--linha);padding:32px 0 48px;color:var(--apagado);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 28px}
+  footer a{text-decoration:none;border-bottom:1px solid var(--linha)}
+  @media (max-width:760px){.tres{grid-template-columns:1fr}.quem{grid-template-columns:1fr;gap:18px;padding:72px 0}.hero{padding:64px 0 64px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="marca" href="/">QUADRO<span>.</span>TEC</a>
+    <a class="topo-link" href="https://quadro-carrossel-app.web.app">abrir o app</a>
+  </header>
+
+  <section class="hero">
+    <small>Quadro Carrossel</small>
+    <h1>A ferramenta pra contar histórias em carrossel.</h1>
+    <p>Foto, vídeo e texto numa mesa só. Você monta o carrossel ou o stories do Instagram direto no navegador, sem plugin e sem precisar ser designer.</p>
+    <a class="botao" href="https://quadro-carrossel-app.web.app">Experimentar o Quadro <span aria-hidden="true">→</span></a>
+  </section>
+
+  <section class="tres">
+    <div><b>Foto, vídeo e texto juntos</b><p>Solte tudo na mesa e arraste pra montar a sequência que conta a sua história.</p></div>
+    <div><b>Pronto pro Instagram</b><p>Carrossel e stories já no tamanho certo, prontos pra postar.</p></div>
+    <div><b>Direto no navegador</b><p>Nada pra instalar. Abre, cria a conta e começa.</p></div>
+  </section>
+
+  <section class="quem">
+    <h2>Quem faz</h2>
+    <div>
+      <p>A Quadro Tec é uma empresa de software de São Paulo, criada em 2026 por Gabriel Cabral e Felipe Gabriel. A gente faz o Quadro Carrossel porque queria uma ferramenta só pra postar com cuidado.</p>
+      <p>Fala com a gente: <a href="mailto:contato@quadrotec.com.br">contato@quadrotec.com.br</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <span>QUADRO TEC LTDA</span>
+    <span>CNPJ 69.126.339/0001-35</span>
+    <span>São Paulo, SP</span>
+    <a href="mailto:contato@quadrotec.com.br">contato@quadrotec.com.br</a>
+  </footer>
+</div>
+</body>
+</html>
